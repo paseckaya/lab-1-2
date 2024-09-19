@@ -1,0 +1,16 @@
+COPY CON list.txt
+Глебов Кирилл
+Артемов Алексей
+Грибоедов Николай
+Лисина Анастасия
+Ершова Екатерина
+Васильева Арина
+Ершова Дарина
+Ульянов Николай
+Моржова Светлана
+
+type list.txt
+SORT list.txt>list2.txt
+dir C:\Windows\*.exe
+copy "C:\Windows\*.exe" "D:\lab1 pd"
+doskey /history > history.txt
