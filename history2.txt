@@ -1,0 +1,9 @@
+git clone https://github.com/paseckaya/lab-1-2
+copy "D:\Пасецкая Дарья\лабораторная 1\" "D:\lab-1-2"
+all
+git config --global user.mail paseckayaowl@gmail.com
+git config --global user.name paseckaya
+git add .
+git commit -m "dev"
+git push
+doskey /history > history2.txt
